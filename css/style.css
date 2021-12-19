@@ -1,0 +1,47 @@
+*{
+    margin: auto;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body{
+background: rgb(9,105,121);
+background: linear-gradient(0deg, rgba(9,105,121,1) 13%, rgba(0,255,196,1) 100%);
+}
+
+.location{
+    /* display: inline-block; */
+    display: inline-block;
+}
+
+.city , .day{
+    display: inline;
+    padding: 50px;
+    font-size: 30px;
+}
+
+
+.temperature{
+    margin: 50px;
+}
+
+.degree{
+    padding: 20px;
+    font-size: 70px;
+}
+
+.desc{
+    font-size: 20px;
+    font-weight: bold;
+    /* font-family: 'Questrial', sans-serif !important; */
+}
